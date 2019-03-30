@@ -36,13 +36,13 @@ Found words: TWEET.
 
 You may give your favorite list of words in a text file. Just assign file name with full path to `infile` arg.
 ```
-$ python main.py --infile=words_list.txt 'ettew'
+$ python main.py --infile words_list.txt 'ettew'
 Found words: TWEET.
 ```
 
 If you want 5 letter word from say 7 letters, then use the `length` argument.
 ```
-$ python main.py --length=5 'etltewr'
+$ python main.py --length 5 'etltewr'
 Found words: ETTLE, RELET, RELET, REWET, REWET, TEWEL, TEWEL, TWEEL, TWEEL, TWEER, TWEER, TWEET.
 ```
 
