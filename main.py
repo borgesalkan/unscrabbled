@@ -6,7 +6,7 @@ import words_finder
 import words_parser
 
 
-parser = ArgumentParser(description='Un-scrabble letters')
+parser = ArgumentParser(description='Unscramble letters to return Scrabble words.')
 parser.add_argument('--infile', type=str, help='Optional input file name listing all scrabble words')
 parser.add_argument('--outfile', type=str, help='Optional output file name to store dictionary of scrabble words')
 parser.add_argument('--length', type=int, help='Optional length of scrabble words')
